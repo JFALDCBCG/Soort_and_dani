@@ -1,0 +1,62 @@
+@font-face {
+    font-family: fuente;
+    src: url(./NotoSansJP-Regular.otf);
+}
+*{
+    font-family: fuente;
+    border-radius: 5px;
+    text-align: center;
+}
+.active{
+    background-color: rgb(199, 0, 57);
+}
+nav ul {
+    position: fixed;
+    top: 0.5cm;
+    width: 90%;
+    margin: auto;
+    list-style-type: none;
+    margin: 0;
+    border-style: solid;
+    overflow: hidden;
+    background-color: rgb(255, 87, 51);
+}
+nav li a{
+    background-color: hsl(46, 100%, 50%);
+    padding: 0.5cm;
+}
+nav li{
+    float: left;
+    padding: 5px;
+}
+/*==================================*/
+.caja{
+    padding: 0.5cm;
+    margin: auto;
+    margin-top: 1.5cm;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+body{
+    background-color: rgb(190, 211, 248);
+}
+input{
+    font-size: 16px;
+    text-align: left;
+}
+button{
+    font-size: 16px;
+}
+section{
+    width: 50%;
+    float: left;
+    padding: 0.5cm;
+}
+article{
+    padding: 0.5cm;
+}
+aside{
+    width: 42.5%;
+    float: right;
+    padding: 0.5cm;
+}
