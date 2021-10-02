@@ -50,13 +50,16 @@ button{
 section{
     width: 50%;
     float: left;
+    margin-right: 5px;
     padding: 0.5cm;
 }
 article{
     padding: 0.5cm;
 }
 aside{
-    width: 42.5%;
+    width: 40%;
+    text-align: left;
     float: right;
+    margin-left: 5px;
     padding: 0.5cm;
 }
