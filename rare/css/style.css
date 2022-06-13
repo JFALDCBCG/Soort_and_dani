@@ -1,0 +1,91 @@
+@font-face{
+    font-family: wrSide;
+    src: url('./JetBrains Mono NL Regular Nerd Font Complete.ttf');
+}
+*{
+    font-family: wrSide;
+    border-radius: 5px;
+}
+body{
+    text-align: center;
+}
+header{
+    padding: 1px;
+    margin-bottom: 5px;
+}
+div{
+    padding: 0.5cm;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-align: left;
+}
+table, td, th{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 0px;
+    border-collapse: collapse;
+    text-align: center;
+}
+section{
+    width: 50%;
+    padding: 0.25cm;
+    float: left;
+    margin-right: 5px;
+}
+article{
+    padding: 0.25cm;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+aside{
+    width: 46.5%;
+    padding: 0.25cm;
+    float: right;
+    margin-left: 5px;
+    overflow: hidden;
+}
+input[type=radio] {
+    width: 20px;
+    margin: .4rem;
+}
+input[type=checkbox]{
+    width: 20px;
+    margin: .4rem;
+}
+input{
+    border-radius: 0px;
+    width: 100%;
+}
+button{
+    border-radius: 0px;
+    background-color: #fff25e;
+    border: 0px solid;
+    padding: 5px;
+    margin: 5px;
+}
+/*=============================*/
+.modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: rgba(195, 230, 199, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    width: 50%;
+    max-width: 100%;
+}
+.show{
+    display: flex;
+}
+/*=============================*/
+.basicCon{
+    display: flex; 
+    overflow: hidden;
+}

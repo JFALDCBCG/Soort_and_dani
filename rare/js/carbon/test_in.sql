@@ -1,0 +1,9 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE someone(name VARCHAR(100),
+n_emp INT,
+done BOOL);
+INSERT INTO someone VALUES('Martin',324,0);
+INSERT INTO someone VALUES('Jose',34,1);
+INSERT INTO someone VALUES('Tom',453,1);
+COMMIT;
